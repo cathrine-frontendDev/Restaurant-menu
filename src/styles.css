@@ -1,3 +1,30 @@
 body {
-    text-align: center;
+   font-family: "Roboto" ,sans-serif;
+   background-color: black;
 }
+
+section.menu {
+    background-color: white;
+}
+
+.description h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.description h1 {
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+ img {
+    border-radius: 100px;
+ }
+
+ li {
+    list-style: none; 
+ }
