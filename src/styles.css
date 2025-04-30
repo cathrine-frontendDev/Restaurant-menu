@@ -28,3 +28,12 @@ section.menu {
  li {
     list-style: none; 
  }
+
+ li.food-item {
+    font-weight: bolder;
+ }
+
+ li.ingredients {
+    font-style: italic;
+    color: rgb(84, 82, 82);
+ }
