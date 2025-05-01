@@ -14,8 +14,27 @@ section.menu {
     width: 900px;
     margin: 0 auto;
 }
+
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 30px;
+}
 .description hr {
    border-style: double;
+   width: 90%;
+}
+
+hr {
+   border-style: double;
+   width: 90%;
+}
+.restaurant-address {
+   font-weight: bold;
+}
+
+.restaurant-contact {
+   font-weight: bold;
 }
 
 .description h3 {
@@ -38,8 +57,7 @@ section.menu {
     border-radius: 100px;
  }
 
- .menu-item {
- }
+
 
  li {
     list-style: none; 
