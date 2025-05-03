@@ -72,3 +72,13 @@ hr {
     font-size: 13px;
     color: rgb(84, 82, 82);
  }
+
+ .drinks-dessert {
+   margin: 0;
+   padding: 30px;
+   display: flex;
+ }
+
+ .price {
+   margin: 0 auto;
+ }
