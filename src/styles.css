@@ -18,7 +18,7 @@ section.menu {
 .grid {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   padding: 30px;
+   padding: 25px;
 }
 .description hr {
    border-style: double;
@@ -73,10 +73,9 @@ hr {
     color: rgb(84, 82, 82);
  }
 
- .drinks-dessert {
-   margin: 0;
-   padding: 30px;
-   display: flex;
+ .dessert-drinks{
+   display:grid;
+   grid-template-columns: 2fr 2fr;
  }
 
  .price {
